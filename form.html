@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>
+        Formulaire Controller JS
+    </title>
+</head>
+<body>
+      <div class="container">
+         <form action="" class="form">
+            <div class="form__childreen">
+                    <!-- <img src="./nature.jpeg" alt="" class="form__img"> -->
+            </div>
+            <div class="form__childreen">
+                <h3 class="form__title">Creez un compte</h3>
+                <div class="form__inputs">
+                    <div class="form__inputs__top">
+                        <input type="text" class="form__input" id="name" name="name" placeholder="Votre nom ">
+                        <input type="text" class="form__input" id="firstName" name="firstName" placeholder="Votre prenom">
+                    </div>
+                    <aside class="response-failed">
+                        <!-- Votre nom contient des erreurs tres graves -->
+                    </aside>
+                    <div class="form__inputs__middle">
+                        <input type="text" class="form__input" id="email" name="email" placeholder="jeancywalos@gmail.com">
+                        <aside class="response-failed">
+                            <!-- Votre nom contient des erreurs tres graves -->
+                        </aside>
+                        <button class="form__button">creez votre compte </button>
+                        <p class="connect">Connecter vous au reseaux ? </p>
+                        <div class="net">
+                            <img src="./google.png" alt="" class="net__img">
+                            <div class="net__content">
+                                Connectez-vous grace a Google
+                            </div>
+                        </div>
+                        <div class="net">
+                            <img src="./fb.png" alt="" class="net__img">
+                            <div class="net__content">
+                                Connectez-vous grace a Facebook
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </form>
+      </div>
+<script type="module" src="app.js"></script>
+</body>
+</html>

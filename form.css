@@ -1,0 +1,133 @@
+
+
+
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: rgb(135, 170, 253);
+}
+
+
+.form {
+    overflow: hidden;
+    display: flex;
+    border-radius: .9em;
+    border: 1px solid #ccc;
+    width: 60em;
+    height: 30em;
+    background: rgb(243, 243, 243);
+}
+
+.form__childreen {
+    width: 50%;
+    height: 30em;
+}
+
+.form__childreen:first-child {
+    background-image: url('./nature.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 30% 80%;
+}
+
+.form__childreen:last-child {
+    padding: 1em 1.8em;
+}
+
+.form__title {
+    font-size: 1.8em;
+    margin-bottom: 1em;
+}
+
+.form__inputs__top {
+    display: flex;
+}
+
+.form__inputs__top > input {
+    margin-right: 1em;
+    width: 80%;
+}
+
+.form__inputs__top > input:last-child {
+    margin-right: 0;
+}
+
+.form__input {
+    margin-bottom: 1.1em;
+    padding: .9em 1em;
+    border-radius: .5em;
+    border: 1px solid #ccc;
+    outline: 0;
+}
+
+.form__input::placeholder {
+    color: #cfcfcf;
+}
+
+.form__inputs__middle {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__inputs__middle > input {
+    margin-bottom: 2em;
+}
+
+.form__button {
+    padding: 1em 1em;
+    border-radius: .5em;
+    outline: 0;
+    cursor: pointer;
+    font-weight: 900;
+    color: #ffffff;
+    border: 1px solid rgb(68, 119, 239);
+    background: rgb(80, 129, 241);
+}
+
+.connect {
+    margin: 1em 0;
+    color: rgb(80, 129, 241);
+}
+
+.net {
+    overflow: hidden;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 3.2em;
+    background-color: white;
+    border-radius: .5em;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+
+.net__img {
+    margin-right: .5em;
+    width: 3em;
+    height: 3em;
+    object-fit: cover;
+}
+
+.net__content {
+    color: rgb(87, 87, 255);
+    text-decoration: underline;
+}
+
+.response-failed {
+    margin-bottom: 1em;
+    color: red;
+}
